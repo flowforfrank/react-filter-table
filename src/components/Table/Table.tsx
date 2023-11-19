@@ -89,7 +89,7 @@ export const Table = ({ rows }: TableProps) => {
           ))}
         </tbody>
       </table>
-      {!!sortedRows.length && (
+      {!sortedRows.length && (
         <h1>No results... Try expanding the search</h1>
       )}
     </>
